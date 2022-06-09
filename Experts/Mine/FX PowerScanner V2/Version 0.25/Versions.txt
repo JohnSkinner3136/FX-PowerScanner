@@ -1,0 +1,124 @@
+Version 2.0.25
+=======================
+Added the ability to modify what symbol and currency columns are displayed and in what order they are displayed in
+
+Version 2.0.24
+=======================
+Added Common class to hold comon functions shared among programs
+Fixed an issue where the currently open tab was not saved
+
+Version 2.0.23
+=======================
+Code cleanup
+Changed from a menu system to tabs as it seems more intuative
+
+Version 2.0.22
+=======================
+Added the expiry date to the header text
+Added empty cell colours
+
+Version 2.0.21
+=======================
+Incremented expiry date to 2022.07.01
+
+Version 2.0.20
+=======================
+Added the ability to undock the FXPS chart using MT4iConnect.dll
+Fixed the sorting issue for the currency grid
+Fixed the issue where suffixes could not be entered
+
+Version 2.0.19
+=======================
+Fixed a memory leak issue
+Added the ability to assign a template when a new chart is opened
+
+Version 2.0.18
+=======================
+Removed the Timeframe user input
+Added the ability to turn off the ranking display
+
+Version 2.0.17
+=======================
+Fixed issue where M15 column doesn't sort when it is clicked on
+Coloured the column header that is sorted
+
+Version 2.0.16
+=======================
+Removed a debug Alert that was displayed every second
+
+Version 2.0.15
+=======================
+Added the ability to open a chart by clicking on a grid cell
+Fixed the Reverdal issue
+
+Version 2.0.14
+=======================
+Code Cleanup
+Added base class for symbols and currencies
+Enable sorting by column bu clicking on the column header
+
+
+Version 2.0.13
+=======================
+Added a currency grid
+Sent to Neil for preliminary look
+
+
+Version 2.0.12
+=======================
+Change the display to a matrix/dashboard style view
+Added a filtering criteria system for selection values to display
+Made the display code more modular
+
+
+Version 2.0.11
+=======================
+Removed include files that are no longer needed
+Added a calculation factory to make it easier to plug in different indicators
+Added the ability to display multi timeframes
+Added the position of the pair on each timeframe
+
+Version 2.0.10
+=======================
+Clear Currency and Symbol tables in the init section in case the init is run from a timeframe change
+Fix a sort issue for the currency table
+
+Version 2.0.9
+=======================
+Removed currency use of icustom
+Fixed collection sorting issue
+Added basic skinning
+
+Version 2.0.8
+=======================
+Added a basic expiry date to the EA in case it gets out into the wild
+
+Version 2.0.7
+=======================
+Removed the Symbol and Currency Structures and used CArrayObj to make the sorting more in line with MT5
+Added sorting to the currency
+
+Version 2.0.6
+=======================
+Added the lower and upper currency zones to determine the colour of the currency
+
+Version 2.0.5
+=======================
+Added the calculations to calculate the currency index as per the G8_CSI 0.26
+Added the functionality to sort the Currency table 
+
+Version 2.0.4
+=======================
+Added a currency table
+Added a menu system with file / View and Help
+
+Version 2.0.3
+=======================
+* Added sorting when the Index header label is pressed
+* Removed the user input to change the sort order
+* Added the primary and secondary 
+
+Version 2.0.2
+=======================
+* Has the charity FX PowerScanner functionality
+
